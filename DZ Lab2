@@ -1,0 +1,45 @@
+print("Hello World")
+
+//Задание 1
+var friends = 1000
+print(friends)
+
+friends = (1000 - 200)
+print(friends)
+
+//Задание 2
+let goalSteps = 10_000
+print(goalSteps)
+
+//Задание 3
+var schooling = 9 
+print(schooling)
+
+schooling = (9+1)
+print(schooling)
+
+//Задание 4
+var steps = 0
+print(steps)
+
+steps = 2000
+print(steps)
+
+print ("Хорошая работа! Вы уже на пути к своей цели.")
+
+//Задание 5
+var name: String = ""
+print(name)
+
+name = "Ilyas"
+print(name)
+
+//Объяснение 
+print ("Так как нет значения не возможно вывести в консоль")
+
+//Задание 6
+var distansesTravel: Double = 0 
+print(distansesTravel)
+
+distansesTravel = 54.3
+print(distansesTravel)
