@@ -1,0 +1,58 @@
+
+print("Hello World")
+
+// Задача 1
+let width = 10
+let heigth = 20
+
+let aria = width * heigth
+print(aria)
+
+let perimeter = width * 2 + heigth * 2
+print(perimeter)
+
+// Задача 2
+print(12 % 5)
+
+// Задача 3
+let heartRate1: Double = 63
+let heartRate2: Double = 86
+let heartRate3: Double = 94
+
+let addedHR = heartRate1 + heartRate2 + heartRate3 
+print(addedHR)
+
+let averageHR = addedHR / 3
+print(averageHR)
+
+let heartRate1D = heartRate1
+let heartRate2D = heartRate2
+let heartRate3D = heartRate3
+
+let addedHRD = heartRate1 + heartRate2 + heartRate3 
+print(addedHRD)
+
+let averageHRD = addedHRD / 3
+print(averageHRD)
+
+// Задача 4
+let steps: Double = 3_467
+let goal: Double = 10_000
+
+let percentOfGoal = 3_467 * 100 / 10_000
+print(percentOfGoal)
+
+// Задача 5
+var balance = 0
+
+balance += 10_000  //10_000   
+balance += 20_000  //30_000
+balance /= 2       //15_000
+balance *= 3       //45_000
+balance -= 3_000   //42_000
+print(balance)
+
+// Задача 6
+print((10 + 2) * 5)
+
+print(4 * (9 - 6) / 2)
