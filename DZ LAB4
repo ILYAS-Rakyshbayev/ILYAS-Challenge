@@ -1,0 +1,185 @@
+// Задание 1
+
+/* Пример
+43 == 53
+print(false)
+print(43 == 53)
+*/
+
+9 == 9
+print(true)
+print(9 == 9)
+
+9 != 9
+print(false)
+print(9 != 9)
+
+47 > 90
+print(false)
+print(47 > 90)
+
+47 < 90
+print(true)
+print(47 < 90)
+
+4 <= 4
+print(true)
+print(4 <= 4)
+
+4 >= 5
+print(false)
+print(4 >= 5)
+
+(47 > 90) && (47 < 90)
+print(false)
+print((47 > 90) && (47 < 90))
+
+(47 > 90) || (47 < 90)
+print(true)
+print((47 > 90) || (47 < 90))
+
+!true
+print(false)
+print(!true)
+
+// Задание 2
+
+var tenge = 2000
+if tenge >= 0 && tenge <= 299 {
+  print("Извини, но ты на мели!")
+} else if tenge <= 300{
+  print("Вау, у тебя есть деньги на пирожки!")
+} else {
+  print("Едем на Такси!")
+}
+
+// Задание 3
+
+let hasFish = true
+let hasPizza = false
+let hasVegan = true
+if (hasFish || hasPizza) && hasVegan {
+  print("Поехали")
+}else {
+  print("Извините, нам нужно выбрать другое место")
+}
+
+// Задание 4
+
+let isRaining = true
+let temperature = 28
+let isSunny = true
+
+let isNiceWeather = !isRaining || (temperature > 27) && isSunny
+print(isNiceWeather)
+
+if isNiceWeather{
+    print("Я иду на прогулку!")
+} else{
+    print("Остаюсь дома!!")
+}
+
+// Задание 5
+
+let seasons = 3
+switch seasons {
+case 1:
+    print("Зима")
+case 2:
+    print("Весна")
+case 3:
+    print("Лето")
+case 4:
+    print("Осень")
+default:
+    print("Всего четыре времени года. Выбери от 1 до 4!")
+}
+
+// Задание 6
+
+let friendsList = "Друг_1"
+switch friendsList {
+case "Друг_1", "Друг_2", "Друг_3", "Друг_4", "Друг_5" :
+    print("Добро пожаловать")
+default:
+    print("Вас нет в списке")
+}
+
+// Задание 7
+
+let Age = 11
+switch Age {
+case 0...2:
+    print("Младенец")
+case 3...14:
+    print("Детский билет")
+case 15...999:
+    print("Взрослый билет")
+default:
+    print("Проверьте провильно ли указан Ваш возраст")
+}
+
+// Задание 8  
+
+var dish: Int
+let a = 10_000
+let b = 5_000
+dish = a > b ? a : b
+print(dish)
+
+/* Задание 9 
+Составить расписание на неделю. 
+Пользователь вводит порядковый номер дня недели и у него на экране отображается, то, что запланировано на этот день.*/
+let weeklySchedule = 1
+switch weeklySchedule {
+case 1:
+    print("Понедельник - Распределение работ между сотрудниками, планирование выполенения задач, начало")
+case 2:
+    print("Вторник - Контроль выполнения поставленых задач ")
+case 3:
+    print("Среда - Выезд по объектам")
+case 4:
+    print("Четверг - Исправление замечаний")
+case 5:
+    print("Пятница - Отчет за прошедшую нелделю")
+case 6:
+    print("Суббота - Встреча с друзьями")
+case 7:
+    print("Воскресение - Отдых, занятие Хобби")
+default:
+    print("У тебя больше дней в неделе чем у всех?")
+}
+
+// Задание 10
+let stantion = "c"
+switch stantion {
+case "A", "a":
+    print("Станция 1, время в пути 10 минут")
+case "B", "b":
+    print("Станция 2, время в пути 15 минут")
+case "C", "c":
+    print("Станция 3, время в пути 18 минут")    
+case "D", "d":
+    print("Станция 4, время в пути 20 минут")
+case "E", "e":
+    print("Станция 5, время в пути 22 минут")
+default:
+    print("Нет такой станции")
+}
+
+// Задание 11
+let fingers = 2
+switch fingers {
+case 1:
+    print("Большой палец")
+case 2:
+    print("Указательный палец")
+case 3:
+    print("Средний палец")
+case 4:
+    print("Безимяный палец")
+case 5:
+    print("Мизинец")
+default:
+    print("ООО аномалия")
+}
